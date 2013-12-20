@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>ExtJs Demo</title>
+    <link rel="stylesheet" type="text/css" href="resources/ext/resources/css/ext-all-neptune.css" />
+    <script type="text/javascript" src="resources/ext/bootstrap.js" ></script>
+    <script type="text/javascript">
+        Ext.application({
+            name: 'HelloExt',
+            launch: function () {
+                Ext.create('Ext.container.Viewport', {
+                    layout: 'fit',
+                    items: [
+                    {
+                        title: 'Hello Ext',
+                        html: 'Hello! Welcome to ExtJs'
+                    }
+                ]
+                });
+            }
+        });
+
+        // Ext.onReady(function(){
+        //     Ext.Msg.alert('Status', 'Changes saved successfully.');
+        // });
+    </script>
+</head>
+<body>
+</body>
+</html>
